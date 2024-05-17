@@ -1,0 +1,19 @@
+[2024-05-16 20:38:54] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2024-05-16 20:38:54] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2024-05-16 20:38:54] [ INFO ] [DomicilioDaoH2:40] Se ha registrado el domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:38:54] [ INFO ] [PacienteDaoH2:49] Se ha registrado el paciente: Id: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:42:12] [ INFO ] [PacienteDaoH2:113] Listado de todos los pacientes: [Id: 1 - Nombre: Emiliano - Apellido: Celli - DNI: 35464856 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts, Id: 2 - Nombre: Pablo - Apellido: Clemente - DNI: 3548546 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur, Id: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia]
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:40] Se ha registrado el domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:42:12] [ INFO ] [PacienteDaoH2:49] Se ha registrado el paciente: Id: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-17 12:18:37] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-05-17 12:18:37] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-05-17 12:18:37] [ INFO ] [OdontologoDaoCollection:22] Listado de todos los odontólogos: [Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}, Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}]
+[2024-05-17 14:54:23] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-05-17 14:54:23] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-05-17 14:54:23] [ INFO ] [OdontologoDaoCollection:22] Listado de todos los odontólogos: [Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}, Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}]
+[2024-05-17 16:47:45] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-05-17 16:47:45] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-05-17 16:47:45] [ INFO ] [OdontologoDaoCollection:22] Listado de todos los odontólogos: [Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}, Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}]

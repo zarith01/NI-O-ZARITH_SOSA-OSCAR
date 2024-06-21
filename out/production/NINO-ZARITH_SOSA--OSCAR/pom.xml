@@ -9,10 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.backend</groupId>
-    <artifactId>Clinica_Odontologica</artifactId>
+    <artifactId>clinica-odontologica</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Clinica_Odontologica</name>
-    <description>Proyecto de backend </description>
+    <name>clinica-odontologica</name>
+    <description>Demo project for Spring Boot</description>
+    <url/>
     <properties>
         <java.version>17</java.version>
     </properties>

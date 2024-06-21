@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-05-21 22:52:49 INFO  OdontologoDaoMemory:17 - Application works :)
 2024-05-21 22:52:49 INFO  OdontologoDaoMemory:18 - Created by: Chacón Daniel & Soto Luis :)
 2024-05-21 22:58:54 INFO  OdontologoDaoMemory:17 - Application works :)
@@ -1192,31 +1193,36 @@ Database may be already in use: "C:/Users/StrikerOut/clinica.mv.db". Possible so
 2024-06-18 02:55:15 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 123123,    "nombre": "asdasd",    "apellido": "asdasd",    "domicilioDtoSalida": {      "id": 1,      "calle": "asdasd",      "numero": 123123,      "localidad": "asdasd",      "provincia": "asdasd"    },    "fechaAlta": "2024-06-18"  },  {    "id": 2,    "dni": 123123,    "nombre": "asdda",    "apellido": "sdasdasd",    "domicilioDtoSalida": {      "id": 2,      "calle": "asdas",      "numero": 1213123,      "localidad": "asdasd",      "provincia": "asdasd"    },    "fechaAlta": "2024-06-18"  }]
 2024-06-18 02:55:21 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 8,    "numMatricula": 123122,    "nombre": "Danielito",    "apellido": "Chacon"  }]
 2024-06-18 02:55:23 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 8,    "numMatricula": 123122,    "nombre": "Danielito",    "apellido": "Chacon"  }]
-2024-06-21 06:52:35 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 1,  "numMatricula": 112233,  "nombre": "Daniel",  "apellido": "Chacon"}
-2024-06-21 06:52:36 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 1,  "numMatricula": 112233,  "nombre": "Daniel",  "apellido": "Chacon"}
-2024-06-21 06:52:36 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 112233,    "nombre": "Daniel",    "apellido": "Chacon"  }]
-2024-06-21 06:52:36 WARN  OdontologoService:87 - No se encontró el odontólogo con ID: 9999
-2024-06-21 06:52:36 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
-2024-06-21 06:52:36 WARN  OdontologoService:58 - No se encontraron odontólogos
-2024-06-21 07:07:39 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 1,  "numMatricula": 112233,  "nombre": "Daniel",  "apellido": "Chacon"}
-2024-06-21 07:07:39 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 1,  "numMatricula": 112233,  "nombre": "Daniel",  "apellido": "Chacon"}
-2024-06-21 07:07:39 INFO  OdontologoService:55 - Listado de todos los odontólogos: [  {    "id": 1,    "numMatricula": 112233,    "nombre": "Daniel",    "apellido": "Chacon"  }]
-2024-06-21 07:07:40 WARN  OdontologoService:87 - No se encontró el odontólogo con ID: 9999
-2024-06-21 07:07:40 INFO  OdontologoService:55 - Listado de todos los odontólogos: []
-2024-06-21 07:07:40 WARN  OdontologoService:58 - No se encontraron odontólogos
-2024-06-21 07:29:41 INFO  PacienteService:52 - Paciente guardado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioSalidaDto": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-21"}
-2024-06-21 07:29:41 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioSalidaDto": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-21"}
-2024-06-21 07:29:41 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 12345,    "nombre": "Luisito",    "apellido": "Soto",    "domicilioSalidaDto": {      "id": 1,      "calle": "Estanislao Lopez",      "numero": 4514,      "localidad": "Malvin",      "provincia": "Montevideo"    },    "fechaAlta": "2024-06-21"  }]
-2024-06-21 07:29:42 WARN  PacienteService:94 - No se encontró el paciente con ID: 9999
-2024-06-21 07:29:42 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
-2024-06-21 07:29:42 WARN  PacienteService:68 - No se encontraron pacientes
-2024-06-21 07:30:18 INFO  OdontologoService:44 - Odontólogo guardado con éxito: {  "id": 1,  "numMatricula": 112233,  "nombre": "Daniel",  "apellido": "Chacon"}
-2024-06-21 07:30:18 INFO  PacienteService:52 - Paciente guardado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioSalidaDto": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-21"}
-2024-06-21 07:30:19 INFO  OdontologoService:36 - Odontólogo encontrado con éxito: {  "id": 1,  "numMatricula": 112233,  "nombre": "Daniel",  "apellido": "Chacon"}
-2024-06-21 07:30:19 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioSalidaDto": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-21"}
-2024-06-21 07:30:19 INFO  TurnosService:74 - Turno guardado con éxito: {  "id": 1,  "fechaYHora": "2024-06-21 07:30",  "odontologo": {    "id": 1,    "numMatricula": 112233,    "nombre": "Daniel",    "apellido": "Chacon"  },  "paciente": {    "id": 1,    "dni": 12345,    "nombre": "Luisito",    "apellido": "Soto",    "fechaAlta": "2024-06-21",    "domicilio": {      "id": 1,      "calle": "Estanislao Lopez",      "numero": 4514,      "localidad": "Malvin",      "provincia": "Montevideo"    }  }}
-2024-06-21 07:30:19 INFO  TurnosService:50 - Turno encontrado con éxito: {  "id": 1,  "fechaYHora": "2024-06-21 07:30",  "odontologo": {    "id": 1,    "numMatricula": 112233,    "nombre": "Daniel",    "apellido": "Chacon"  },  "paciente": {    "id": 1,    "dni": 12345,    "nombre": "Luisito",    "apellido": "Soto",    "fechaAlta": "2024-06-21",    "domicilio": {      "id": 1,      "calle": "Estanislao Lopez",      "numero": 4514,      "localidad": "Malvin",      "provincia": "Montevideo"    }  }}
-2024-06-21 07:30:20 INFO  TurnosService:86 - Listado de todos los turnos: {}[  {    "id": 1,    "fechaYHora": "2024-06-21 07:30",    "odontologoSalidaDto": {      "id": 1,      "numMatricula": 112233,      "nombre": "Daniel",      "apellido": "Chacon"    },    "pacienteSalidaDto": {      "id": 1,      "dni": 12345,      "nombre": "Luisito",      "apellido": "Soto",      "domicilioSalidaDto": {        "id": 1,        "calle": "Estanislao Lopez",        "numero": 4514,        "localidad": "Malvin",        "provincia": "Montevideo"      },      "fechaAlta": "2024-06-21"    }  }]
-2024-06-21 07:30:20 WARN  TurnosService:122 - No se encontró el turno con ID: 9999
-2024-06-21 07:30:20 INFO  TurnosService:86 - Listado de todos los turnos: {}[]
-2024-06-21 07:30:20 WARN  TurnosService:89 - No se encontraron turnos
+2024-06-20 17:46:18 INFO  PacienteService:52 - Paciente guardado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioDtoSalida": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 17:46:19 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioDtoSalida": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 17:46:19 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 12345,    "nombre": "Luisito",    "apellido": "Soto",    "domicilioDtoSalida": {      "id": 1,      "calle": "Estanislao Lopez",      "numero": 4514,      "localidad": "Malvin",      "provincia": "Montevideo"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 17:46:19 WARN  PacienteService:94 - No se encontró el paciente con ID: 9999
+2024-06-20 17:46:19 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 17:46:19 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 18:08:35 INFO  PacienteService:52 - Paciente guardado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioSalidaDto": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 18:08:35 INFO  PacienteService:41 - Paciente encontrado con éxito: {  "id": 1,  "dni": 12345,  "nombre": "Luisito",  "apellido": "Soto",  "domicilioSalidaDto": {    "id": 1,    "calle": "Estanislao Lopez",    "numero": 4514,    "localidad": "Malvin",    "provincia": "Montevideo"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 18:08:35 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 12345,    "nombre": "Luisito",    "apellido": "Soto",    "domicilioSalidaDto": {      "id": 1,      "calle": "Estanislao Lopez",      "numero": 4514,      "localidad": "Malvin",      "provincia": "Montevideo"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 18:08:36 WARN  PacienteService:94 - No se encontró el paciente con ID: 9999
+2024-06-20 18:08:36 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 18:08:36 WARN  PacienteService:68 - No se encontraron pacientes
+=======
+[2024-05-16 20:38:54] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2024-05-16 20:38:54] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2024-05-16 20:38:54] [ INFO ] [DomicilioDaoH2:40] Se ha registrado el domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:38:54] [ INFO ] [PacienteDaoH2:49] Se ha registrado el paciente: Id: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:97] Se ha encontrado el domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:42:12] [ INFO ] [PacienteDaoH2:113] Listado de todos los pacientes: [Id: 1 - Nombre: Emiliano - Apellido: Celli - DNI: 35464856 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 1 - Calle: Av Siempre Viva - Numero: 742 - Localidad: Springfield - Provincia: Massachusetts, Id: 2 - Nombre: Pablo - Apellido: Clemente - DNI: 3548546 - Fechas de ingreso: 2023-05-24 - Domicilio: Id: 2 - Calle: Calle Wallaby - Numero: 42 - Localidad: Sydney - Provincia: Nueva Gales del Sur, Id: 3 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 3 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia]
+[2024-05-16 20:42:12] [ INFO ] [DomicilioDaoH2:40] Se ha registrado el domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-16 20:42:12] [ INFO ] [PacienteDaoH2:49] Se ha registrado el paciente: Id: 4 - Nombre: Nombre - Apellido: Apellido - DNI: 123456 - Fechas de ingreso: 2023-05-02 - Domicilio: Id: 4 - Calle: Calle - Numero: 13 - Localidad: Localidad - Provincia: Provincia
+[2024-05-17 12:18:37] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-05-17 12:18:37] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-05-17 12:18:37] [ INFO ] [OdontologoDaoCollection:22] Listado de todos los odontólogos: [Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}, Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}]
+[2024-05-17 14:54:23] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-05-17 14:54:23] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-05-17 14:54:23] [ INFO ] [OdontologoDaoCollection:22] Listado de todos los odontólogos: [Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}, Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}]
+[2024-05-17 16:47:45] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}
+[2024-05-17 16:47:45] [ INFO ] [OdontologoDaoCollection:17] Odontólogo registrado: Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}
+[2024-05-17 16:47:45] [ INFO ] [OdontologoDaoCollection:22] Listado de todos los odontólogos: [Odontologo{numeroMatricula=1, nombre='Juan', apellido='Perez'}, Odontologo{numeroMatricula=2, nombre='Ana', apellido='Gomez'}]
+>>>>>>> b0f6a6707f0b191368879e8411d5b5390655583f

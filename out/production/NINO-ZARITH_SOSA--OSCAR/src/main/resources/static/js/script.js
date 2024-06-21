@@ -1,6 +1,4 @@
-Script.js
-
-const API_BASE_URL = 'http://localhost:63342/api';
+const API_BASE_URL = 'http://localhost:63342/api';  // Asegúrate de que la URL sea correcta
 
 async function fetchOdontologos() {
     const response = await fetch(`${API_BASE_URL}/odontologos`);
@@ -18,4 +16,5 @@ async function addOdontologo(odontologo) {
     return response.json();
 }
 
+// Similar functions for patients and appointments
 

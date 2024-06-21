@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Obtener elementos del DOM
     const odontologoForm = document.getElementById('odontologoForm');
     const odontologosTable = document.getElementById('odontologosTable').getElementsByTagName('tbody')[0];
 
+    // Manejar el evento de envío del formulario
     odontologoForm.addEventListener('submit', function(event) {
         event.preventDefault();
 
@@ -12,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             apellido: formData.get('apellido')
         };
 
+        // Enviar datos al servidor
         fetch('/api/odontologos', {
             method: 'POST',
             headers: {
@@ -21,27 +24,18 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(response => response.json())
         .then(odontologo => {
-            // Clear form
-            odontologoForm.reset();
-
-            // Add new odontologo to the table
+            // Agregar nuevo odontólogo a la tabla
             const newRow = odontologosTable.insertRow();
             newRow.innerHTML = `
                 <td>${odontologo.numMatricula}</td>
                 <td>${odontologo.nombre}</td>
                 <td>${odontologo.apellido}</td>
             `;
-
-            // Show success message
-            showAlert('Odontólogo agregado exitosamente', 'success');
         })
-        .catch(error => {
-            console.error('Error:', error);
-            // Show error message
-            showAlert('Error al agregar odontólogo', 'danger');
-        });
+        .catch(error => console.error('Error:', error));
     });
 
+    // Obtener lista de odontólogos al cargar la página
     fetch('/api/odontologos')
         .then(response => response.json())
         .then(odontologos => {
@@ -55,15 +49,5 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         })
         .catch(error => console.error('Error:', error));
-
-    function showAlert(message, type) {
-        const alertContainer = document.createElement('div');
-        alertContainer.className = `alert alert-${type}`;
-        alertContainer.textContent = message;
-        document.body.prepend(alertContainer);
-
-        setTimeout(() => {
-            alertContainer.remove();
-        }, 3000);
-    }
 });
+
